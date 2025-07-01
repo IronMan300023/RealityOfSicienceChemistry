@@ -1,0 +1,1596 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 16251 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ak561/Unity/RealityOfSicienceChemistry/RealityOfScienceChemistry
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64535
+Successfully changed project path to: C:/Users/ak561/Unity/RealityOfSicienceChemistry/RealityOfScienceChemistry
+C:/Users/ak561/Unity/RealityOfSicienceChemistry/RealityOfScienceChemistry
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18604]  Target information:
+
+Player connection [18604]  * "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 2531040584 [EditorId] 2531040584 [Version] 1048832 [Id] WindowsEditor(7,AhmetBilgisayar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 10.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ak561/Unity/RealityOfSicienceChemistry/RealityOfScienceChemistry/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009059 seconds.
+- Loaded All Assemblies, in  0.325 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 569ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.586 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1068ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3617.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 3.411600 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.175000 ms MarkObjects: 2.883000 ms  DeleteObjects: 0.121600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164905.303242 seconds.
+  path: Assets/TerrainData_bc7efd52-2a35-48ed-95b0-3d71f030e88e.asset
+  artifactKey: Guid(6877155a27d81bc43b13f7170c584d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bc7efd52-2a35-48ed-95b0-3d71f030e88e.asset using Guid(6877155a27d81bc43b13f7170c584d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '701a050092af651b569ed516d353e37e') in 0.013636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TerrainData_bee74450-04b5-40f5-8c7a-6767adcffed0.asset
+  artifactKey: Guid(4fe7b40e2ee25044e86dda1d4b52ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bee74450-04b5-40f5-8c7a-6767adcffed0.asset using Guid(4fe7b40e2ee25044e86dda1d4b52ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1c73598e53fafa200e861ff887f823a') in 0.004544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_bdb6b2d7-ba77-459d-b7bb-a3f14d566f45.asset
+  artifactKey: Guid(3a75a002048061147b8d7cc3f50001cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bdb6b2d7-ba77-459d-b7bb-a3f14d566f45.asset using Guid(3a75a002048061147b8d7cc3f50001cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1ec260257fc9ac4961c493f02065081') in 0.004633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_ae059278-fb85-4160-846b-3aa892a7de1f.asset
+  artifactKey: Guid(4d6e8debbbc84be4c8596298b37cf948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ae059278-fb85-4160-846b-3aa892a7de1f.asset using Guid(4d6e8debbbc84be4c8596298b37cf948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2bff37da60dfc9a1d1e373c750c26046') in 0.004135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_2a542067-b598-46b7-963d-dffcd16d8085.asset
+  artifactKey: Guid(31ba05eaf003449489fa5e0cb9ca6e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2a542067-b598-46b7-963d-dffcd16d8085.asset using Guid(31ba05eaf003449489fa5e0cb9ca6e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bff53abcd42ac95c8f2c0a550f000a9') in 0.004257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_32371791-2e30-44b2-88a5-c63f4078b487.asset
+  artifactKey: Guid(78c72774cd3edcf45a31d3a729ba3b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_32371791-2e30-44b2-88a5-c63f4078b487.asset using Guid(78c72774cd3edcf45a31d3a729ba3b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1383c9aecd3b30b6cfe2e19cee9c0e3') in 0.004189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_2dee78b1-d5f5-4ac5-901f-027f3501c28b.asset
+  artifactKey: Guid(f4f32b455825d644c8af241c796d52b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2dee78b1-d5f5-4ac5-901f-027f3501c28b.asset using Guid(f4f32b455825d644c8af241c796d52b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '544653846a65c0b490184319cd4743e8') in 0.004222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_0c8038c7-b6d0-43ac-80e5-83b418ab3d97.asset
+  artifactKey: Guid(89fd03e4f0c2f8848bbff4cd92e760a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0c8038c7-b6d0-43ac-80e5-83b418ab3d97.asset using Guid(89fd03e4f0c2f8848bbff4cd92e760a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2c2f23d58e02f6d1f22d0066a94b2dc') in 0.003956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_15e8407b-d561-481a-8141-b0321634262a.asset
+  artifactKey: Guid(3d5ff663ab5235048af432f5e97584ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_15e8407b-d561-481a-8141-b0321634262a.asset using Guid(3d5ff663ab5235048af432f5e97584ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29e7f5dd18303301154dab028ffe19be') in 0.004009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_b2710037-76bf-4275-aa12-4a26b1c13fe4.asset
+  artifactKey: Guid(e053489187ed6d7499381cfbeb58f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b2710037-76bf-4275-aa12-4a26b1c13fe4.asset using Guid(e053489187ed6d7499381cfbeb58f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96f5d99610693bf54a5aaacefd5d8d4b') in 0.004156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_87766dbf-6ac1-4515-91fc-b913dab4ecdf.asset
+  artifactKey: Guid(a1fbf073b2e51154e9df1669b1a11bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_87766dbf-6ac1-4515-91fc-b913dab4ecdf.asset using Guid(a1fbf073b2e51154e9df1669b1a11bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1dc22efaa026e2187614f7d9d5060389') in 0.004004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_8711f113-7059-4110-bd19-cd2ae8c66379.asset
+  artifactKey: Guid(5d85f54037558414b97baa60811addc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8711f113-7059-4110-bd19-cd2ae8c66379.asset using Guid(5d85f54037558414b97baa60811addc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cd11216247cccaf311cf3b1c3a4b4ab') in 0.003939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_a2f84e3c-a5a3-4b47-8e23-928224b46bed.asset
+  artifactKey: Guid(43f4e71e5c2fc19419960a11b431948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a2f84e3c-a5a3-4b47-8e23-928224b46bed.asset using Guid(43f4e71e5c2fc19419960a11b431948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3bd74d0b1bdce1f1956a58c0a0654b33') in 0.004298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_e2201833-9e16-47b5-b482-61740c6035e0.asset
+  artifactKey: Guid(2f59f0b49d59ac54f81d4901bb6495d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_e2201833-9e16-47b5-b482-61740c6035e0.asset using Guid(2f59f0b49d59ac54f81d4901bb6495d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df044c719a0d8d7a865775dd0cdf4ee9') in 0.004276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_0c4c7dab-8453-409a-abc0-460cfe4ef738.asset
+  artifactKey: Guid(fc19fe40790253f44ae62868cb51cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0c4c7dab-8453-409a-abc0-460cfe4ef738.asset using Guid(fc19fe40790253f44ae62868cb51cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0dc5bbc29ce874b8ed459091b6f86af3') in 0.004117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_991ec002-750c-4933-b6b8-9573ab28b8b0.asset
+  artifactKey: Guid(4c3a92f020760dc4ca0e66c9e70698bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_991ec002-750c-4933-b6b8-9573ab28b8b0.asset using Guid(4c3a92f020760dc4ca0e66c9e70698bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa08468edf86dec37dcadab6d6b44b0c') in 0.004157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_f5d8df7a-50a0-4f3d-8b93-e9eac7ae82e4.asset
+  artifactKey: Guid(e0c108596a8d99f42a176195f73a38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f5d8df7a-50a0-4f3d-8b93-e9eac7ae82e4.asset using Guid(e0c108596a8d99f42a176195f73a38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ca94f3cf42d8971ba49a2e2b68626da') in 0.004734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_cafe6eb8-00e1-4366-a3c9-2e04500fb7a0.asset
+  artifactKey: Guid(7a8dd4ebcf9db7a42bbebc6529630ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cafe6eb8-00e1-4366-a3c9-2e04500fb7a0.asset using Guid(7a8dd4ebcf9db7a42bbebc6529630ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f0a0a3aad41fb6df3b786a1357ea237') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_0409edb4-8082-4fb4-9c74-792207fb1529.asset
+  artifactKey: Guid(a71d0687e291b7c46b3c6e2687f814e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0409edb4-8082-4fb4-9c74-792207fb1529.asset using Guid(a71d0687e291b7c46b3c6e2687f814e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8a46a641da201fb4fe5c888b3b21d0a') in 0.004223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_091c46f8-5d13-4765-a17e-d08b2624e309.asset
+  artifactKey: Guid(4b0d5d9de7637e7498024d71575d36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_091c46f8-5d13-4765-a17e-d08b2624e309.asset using Guid(4b0d5d9de7637e7498024d71575d36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4257a2ebe15b22809a74e23707656c2f') in 0.004164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_17b8a815-7213-4bb2-894e-49036cb49367.asset
+  artifactKey: Guid(7b2ea0c17f222d343a371fc1af0a5c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_17b8a815-7213-4bb2-894e-49036cb49367.asset using Guid(7b2ea0c17f222d343a371fc1af0a5c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c60735e0ce7803499f63c467b4193aa1') in 0.003773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_4f3c9fc0-59c1-48b3-9ce8-e6460b23749f.asset
+  artifactKey: Guid(26ea6dd86cbc92548af2f638182c2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4f3c9fc0-59c1-48b3-9ce8-e6460b23749f.asset using Guid(26ea6dd86cbc92548af2f638182c2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16c63be68288f0de0c87eb071665102e') in 0.004100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_c5f34b18-7c47-45d9-92da-ca9ad6e40175.asset
+  artifactKey: Guid(2f4ab17439abd5c4a82a43723e9508a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c5f34b18-7c47-45d9-92da-ca9ad6e40175.asset using Guid(2f4ab17439abd5c4a82a43723e9508a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fbd3386e3acf4bade1715fb26cfabfa') in 0.004021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_20e0b83b-13c3-4b23-bd96-add6a6deb853.asset
+  artifactKey: Guid(afe1b71801879ad4497d6507862923ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_20e0b83b-13c3-4b23-bd96-add6a6deb853.asset using Guid(afe1b71801879ad4497d6507862923ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf1b1a917673605d9b99e5b2f73b55cb') in 0.004066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_26975cf3-51ed-4f33-a3e6-b96ba3bbf6ce.asset
+  artifactKey: Guid(f09b699d3674c304898c9e12cd3670d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_26975cf3-51ed-4f33-a3e6-b96ba3bbf6ce.asset using Guid(f09b699d3674c304898c9e12cd3670d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0478de23bac3ddb4a4d446c5e2fb09ab') in 0.003887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_30ed6f3e-4993-407a-ac57-47227e1ab279.asset
+  artifactKey: Guid(ab99bef4878b73345b55a546363e0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_30ed6f3e-4993-407a-ac57-47227e1ab279.asset using Guid(ab99bef4878b73345b55a546363e0189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1aad25025be8750a289258b4009f79bb') in 0.003967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_388d165c-2c87-4a14-9bf4-ee1dbd60df92.asset
+  artifactKey: Guid(2a40677f568cc7c46b769a292bdddee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_388d165c-2c87-4a14-9bf4-ee1dbd60df92.asset using Guid(2a40677f568cc7c46b769a292bdddee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c06dcaeb76c86956b70f5a7969cd1f7') in 0.004192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_a439fa52-e4c3-4f4a-a540-efe8cfe29802.asset
+  artifactKey: Guid(3063a3728260b924082685f8bd2f6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a439fa52-e4c3-4f4a-a540-efe8cfe29802.asset using Guid(3063a3728260b924082685f8bd2f6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6ddf8ed14b7d2da21c38bded5e85605') in 0.004263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_d755a2f6-b17a-489f-a593-92620e4fa6ac.asset
+  artifactKey: Guid(693c8fbe42fb2d54680be6b6788d1192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d755a2f6-b17a-489f-a593-92620e4fa6ac.asset using Guid(693c8fbe42fb2d54680be6b6788d1192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9a8403fe57f2f4ad98e1325a9dd084c') in 0.004648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_53631b3d-c781-47d6-8485-f44b9c258042.asset
+  artifactKey: Guid(334644befc0a3a24e8b284d67442547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_53631b3d-c781-47d6-8485-f44b9c258042.asset using Guid(334644befc0a3a24e8b284d67442547a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b25e14d7952fec45c593a8aac76c7aa') in 0.004682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_16c550e4-f146-4955-80f4-68ae507a5e82.asset
+  artifactKey: Guid(c3e40ec37818344418b4ecc6a8da5fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_16c550e4-f146-4955-80f4-68ae507a5e82.asset using Guid(c3e40ec37818344418b4ecc6a8da5fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af24ba3917f16658b9ac90c659a6cd1d') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_2994b3e9-6212-42d4-8590-71236cb0b775.asset
+  artifactKey: Guid(808e9f36e2f375c42889bbc5e75e81f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2994b3e9-6212-42d4-8590-71236cb0b775.asset using Guid(808e9f36e2f375c42889bbc5e75e81f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c308b8451f2fca6e71a2c2fa782ffaaa') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_87a08830-7fee-43d7-bd86-55dd751eec00.asset
+  artifactKey: Guid(681660b831e1bed4980f00514b41dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_87a08830-7fee-43d7-bd86-55dd751eec00.asset using Guid(681660b831e1bed4980f00514b41dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d62f673cbcf36088ad58bc766e8f200') in 0.004210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_dc698039-a2ab-4829-a052-b8ad6d899982.asset
+  artifactKey: Guid(3c81e6141f2fa6047b4108d35b89a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_dc698039-a2ab-4829-a052-b8ad6d899982.asset using Guid(3c81e6141f2fa6047b4108d35b89a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ced149255938b1ce01788d5a0c16e2b') in 0.003993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_8d1221bf-6f29-4c4b-a98c-c152542e96ec.asset
+  artifactKey: Guid(1ecc532c83608404bb931dde7bedb7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8d1221bf-6f29-4c4b-a98c-c152542e96ec.asset using Guid(1ecc532c83608404bb931dde7bedb7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'beb5e9da5aa49db79abc32f05d7386b1') in 0.004016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_4daf62cf-034b-427a-84e0-b91510aab696.asset
+  artifactKey: Guid(a2578e7dbeb445740a00127bf7edd7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4daf62cf-034b-427a-84e0-b91510aab696.asset using Guid(a2578e7dbeb445740a00127bf7edd7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c24bafd651d1ed98176143af5e6a9c41') in 0.003984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_ac739e2f-644d-4646-a8e7-7fc0d6fcff7a.asset
+  artifactKey: Guid(b13431122eb28a2489de849eba1226ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ac739e2f-644d-4646-a8e7-7fc0d6fcff7a.asset using Guid(b13431122eb28a2489de849eba1226ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59fa72fe070d9ab3cc60c5d642dbaac9') in 0.004461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_5bcb6387-4c13-440a-9320-863cd118752b.asset
+  artifactKey: Guid(567c1014e9776404caee153debb8aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_5bcb6387-4c13-440a-9320-863cd118752b.asset using Guid(567c1014e9776404caee153debb8aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03811ac9183e8263411cfdf72fd8819a') in 0.004177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_700e55d8-5c4e-4dc9-9753-c3c021dd041a.asset
+  artifactKey: Guid(43e4ab273984ce54eb7a301449f13d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_700e55d8-5c4e-4dc9-9753-c3c021dd041a.asset using Guid(43e4ab273984ce54eb7a301449f13d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10c9d03fdfbdd461740d984b76e73c0c') in 0.004093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_156b2d89-8bac-42ce-aaef-e81939df661b.asset
+  artifactKey: Guid(3cd79ce380cc0b44fbfd45ed953cb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_156b2d89-8bac-42ce-aaef-e81939df661b.asset using Guid(3cd79ce380cc0b44fbfd45ed953cb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f94517bb90ebb6df3a88bb1fc202b9c6') in 0.004189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_7c1c578d-007f-499a-a955-23e5762aaf5b.asset
+  artifactKey: Guid(077ac62e0385a304fbbeb7a598d4ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7c1c578d-007f-499a-a955-23e5762aaf5b.asset using Guid(077ac62e0385a304fbbeb7a598d4ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6df18706d921d584149ced4a50e69415') in 0.004052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainData_a406be44-7f2b-4961-a450-bb6610541908.asset
+  artifactKey: Guid(8615dcda10287364090927d1f6c1cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a406be44-7f2b-4961-a450-bb6610541908.asset using Guid(8615dcda10287364090927d1f6c1cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34dd8c0eafb4020960f7c7ac3f71a483') in 0.004837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_9124a7ed-a874-46c5-a7b5-4c35536b7dce.asset
+  artifactKey: Guid(f9c0b9ffcdfb7014797963c47c83af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9124a7ed-a874-46c5-a7b5-4c35536b7dce.asset using Guid(f9c0b9ffcdfb7014797963c47c83af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29d7f985690218446e97cdc45460fee1') in 0.004419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_fe9246da-9c58-4a3d-a8c9-c94eba9c86a6.asset
+  artifactKey: Guid(102573d17c00f47439f00a7cfe3ca9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_fe9246da-9c58-4a3d-a8c9-c94eba9c86a6.asset using Guid(102573d17c00f47439f00a7cfe3ca9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdddc049c660f34fc2674a8d4eaf1696') in 0.004314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TerrainData_06af02fd-679b-4e64-a40e-7e92a9eed6d0.asset
+  artifactKey: Guid(22a622e2eb2d7664492082bf64475550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_06af02fd-679b-4e64-a40e-7e92a9eed6d0.asset using Guid(22a622e2eb2d7664492082bf64475550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bc8adedf52f8240179e861f1241a745') in 0.004689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_77256a4a-b8d0-40ab-81a7-71c266557cdd.asset
+  artifactKey: Guid(88c7fd6b17a62d14390dea1723941df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_77256a4a-b8d0-40ab-81a7-71c266557cdd.asset using Guid(88c7fd6b17a62d14390dea1723941df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f75c5d59294a2f655cc8c40fd3e824f5') in 0.003934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_7e76ccf2-8caf-45de-b14f-b05eefd45681.asset
+  artifactKey: Guid(54b3dd9609adc0149b60868f16348444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7e76ccf2-8caf-45de-b14f-b05eefd45681.asset using Guid(54b3dd9609adc0149b60868f16348444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '755283c0641b07bfb528b69b7d086292') in 0.004077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_6a4ad47e-0f7a-42c2-99a3-35ae2a9ea1d2.asset
+  artifactKey: Guid(0550ba13e0efead49b8b776da923e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6a4ad47e-0f7a-42c2-99a3-35ae2a9ea1d2.asset using Guid(0550ba13e0efead49b8b776da923e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '339851a74f941368ea279049eb4c3054') in 0.003995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_060959f4-74d2-4eda-9b66-e272a8da0aa1.asset
+  artifactKey: Guid(75b4bced5a8d64a47886a7b108d7bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_060959f4-74d2-4eda-9b66-e272a8da0aa1.asset using Guid(75b4bced5a8d64a47886a7b108d7bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74fd5c35a98e5a62de4e9b7cebf16a9e') in 0.003824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_c2adaa4d-4898-45c0-99b9-517e57c81ab0.asset
+  artifactKey: Guid(49fa2cdf8af4d9b4bbf609b9e3c2cc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c2adaa4d-4898-45c0-99b9-517e57c81ab0.asset using Guid(49fa2cdf8af4d9b4bbf609b9e3c2cc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45faea3cd18a701829aaec3f0eb5ba85') in 0.004103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_fc1e557d-7e26-4c9d-882d-d5e47ef6fbd8.asset
+  artifactKey: Guid(05f4794bcec91c940bd085454ca1af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_fc1e557d-7e26-4c9d-882d-d5e47ef6fbd8.asset using Guid(05f4794bcec91c940bd085454ca1af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60bba2486258053210f55002939f701e') in 0.003781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_7a7e6933-fab9-4eeb-ae96-58a758e04fb8.asset
+  artifactKey: Guid(bd2a2312989e80a4fac01422d7dd8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7a7e6933-fab9-4eeb-ae96-58a758e04fb8.asset using Guid(bd2a2312989e80a4fac01422d7dd8d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bec72dfc0cee1c1789306779c53b27e') in 0.004384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_4a153fb2-23ab-428e-9347-9ee799ae47f3.asset
+  artifactKey: Guid(133dca4f461cf764ebf695d7af618adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4a153fb2-23ab-428e-9347-9ee799ae47f3.asset using Guid(133dca4f461cf764ebf695d7af618adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0cf5074289cdf98a1e3de4992c78f1f') in 0.004465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainData_2f46134a-2bcf-4ea6-97d5-cb9236ceb7cf.asset
+  artifactKey: Guid(6dbd6008b19fb42428e7a56c038c4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2f46134a-2bcf-4ea6-97d5-cb9236ceb7cf.asset using Guid(6dbd6008b19fb42428e7a56c038c4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1acf51afcb199555cb2e0b429366b5f5') in 0.004501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_a5f89c91-b72b-487d-a314-42ac868f1e44.asset
+  artifactKey: Guid(43b79502ba602d14889230a42b4cd981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a5f89c91-b72b-487d-a314-42ac868f1e44.asset using Guid(43b79502ba602d14889230a42b4cd981) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b8415387afdb95593cdf07519f43de6') in 0.004466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_1e480aa9-a60a-444a-881f-ad6f7ce0c416.asset
+  artifactKey: Guid(8e8fc9f9c1632ce4598a7c8705fb7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1e480aa9-a60a-444a-881f-ad6f7ce0c416.asset using Guid(8e8fc9f9c1632ce4598a7c8705fb7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91b5c3844facf86f4fe2a3f2d9e1fa35') in 0.003954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_9041cf0f-07f1-48f3-b98a-a65efe5e2b86.asset
+  artifactKey: Guid(89109bf0f2385a8489433c9fd5174ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9041cf0f-07f1-48f3-b98a-a65efe5e2b86.asset using Guid(89109bf0f2385a8489433c9fd5174ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bac3f97de0d347641b2c0e3ea24a4309') in 0.004140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_3614e98b-52f9-48e2-9cf5-3fcc452479fe.asset
+  artifactKey: Guid(409f5e1db6432e94fa853a9ddd320c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3614e98b-52f9-48e2-9cf5-3fcc452479fe.asset using Guid(409f5e1db6432e94fa853a9ddd320c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0844abb5de317c15cc8e36717e2ddfc2') in 0.003903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_ddbb97e4-ff55-4b33-930b-3b1586631c4b.asset
+  artifactKey: Guid(ef1d57ab2d3cb1f43b4c04db03c9cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ddbb97e4-ff55-4b33-930b-3b1586631c4b.asset using Guid(ef1d57ab2d3cb1f43b4c04db03c9cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40e50a20d91acf8c1c13cca230fda05f') in 0.003824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_00b2a83e-a8c8-4dc2-9905-bdc3494a7cdc.asset
+  artifactKey: Guid(664ce238b5555904bb93f930eedc685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_00b2a83e-a8c8-4dc2-9905-bdc3494a7cdc.asset using Guid(664ce238b5555904bb93f930eedc685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b6cb75e8b66542f9de0caf33af044bad') in 0.004110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_1c7b159b-577d-42a8-abc4-52eb287edf9c.asset
+  artifactKey: Guid(7b36275ec7be90e468dfe1da0ed47994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1c7b159b-577d-42a8-abc4-52eb287edf9c.asset using Guid(7b36275ec7be90e468dfe1da0ed47994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '801d6b0619829f48f8d5e5b7bb3b1810') in 0.004360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainData_4e57c24e-224a-40e4-98bf-85cf3b30bb91.asset
+  artifactKey: Guid(8dec23916f2df2b4faff67ae3e566c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4e57c24e-224a-40e4-98bf-85cf3b30bb91.asset using Guid(8dec23916f2df2b4faff67ae3e566c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bfcc43635c5ccfe5a9a0bfe28bd2fbd1') in 0.004412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_56b850a5-72b4-47e5-903a-7c7b02c22a7a.asset
+  artifactKey: Guid(a899114ddff701d4890b44144f42d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_56b850a5-72b4-47e5-903a-7c7b02c22a7a.asset using Guid(a899114ddff701d4890b44144f42d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7d8ed93abe089cb2413df8cf4fe324a') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_1d5620cb-a2d6-452e-bee8-c5339d4622d0.asset
+  artifactKey: Guid(f927bf964077fb94f9892f54c3d002ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1d5620cb-a2d6-452e-bee8-c5339d4622d0.asset using Guid(f927bf964077fb94f9892f54c3d002ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '344dabe17013b2a26a66da0f899b9180') in 0.004180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_4788de1d-1e1a-441c-b4cf-3f3042608371.asset
+  artifactKey: Guid(a4e085cdced075b46ac9b4ca0fb0e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4788de1d-1e1a-441c-b4cf-3f3042608371.asset using Guid(a4e085cdced075b46ac9b4ca0fb0e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '375f7f29e7cb853a790c93cc53f08054') in 0.003740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_35daeac8-04ce-4f33-8071-545718b1fe19.asset
+  artifactKey: Guid(d8c4b3bce57d2fb42bb5ef34401c3fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_35daeac8-04ce-4f33-8071-545718b1fe19.asset using Guid(d8c4b3bce57d2fb42bb5ef34401c3fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3711c5c2989e95e8760de998ba80c740') in 0.003918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_21cc84f9-a6a0-4280-988d-9e18a0b3f7e9.asset
+  artifactKey: Guid(71e20b4144902c044907e60fb72668ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_21cc84f9-a6a0-4280-988d-9e18a0b3f7e9.asset using Guid(71e20b4144902c044907e60fb72668ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1df8aed72337391338a13a72c277fac') in 0.004200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_cb925413-d483-4751-8ac9-b689478329cc.asset
+  artifactKey: Guid(bab2078464cdd8345b620714a8d5aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cb925413-d483-4751-8ac9-b689478329cc.asset using Guid(bab2078464cdd8345b620714a8d5aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4944f8eb4e6008918f4facaeffa549d8') in 0.004062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_904b3cf7-59cd-4bce-871f-1281c8ed2f35.asset
+  artifactKey: Guid(09d696a8d4b7c56458d4d98f35399589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_904b3cf7-59cd-4bce-871f-1281c8ed2f35.asset using Guid(09d696a8d4b7c56458d4d98f35399589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a8a9741c88cae37429ab7b11db7a474') in 0.004118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_80d3d88e-5239-45cd-ab87-0351c5e5ee84.asset
+  artifactKey: Guid(2b3df5cbe029e5a4cacec0227723a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_80d3d88e-5239-45cd-ab87-0351c5e5ee84.asset using Guid(2b3df5cbe029e5a4cacec0227723a26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1a2356a470dd3f7a27fa194c8688457') in 0.004052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_cc5b83e3-1434-4312-83b9-02ab920fe265.asset
+  artifactKey: Guid(d075b64a5494c904881061a49852cc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cc5b83e3-1434-4312-83b9-02ab920fe265.asset using Guid(d075b64a5494c904881061a49852cc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '071dcf7574dbfcafe9605d5fb9f77d83') in 0.004334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainData_56ce8b31-c171-488d-97b6-affef6157372.asset
+  artifactKey: Guid(4da6ee2af8dc7c8409a954c8aaf2db60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_56ce8b31-c171-488d-97b6-affef6157372.asset using Guid(4da6ee2af8dc7c8409a954c8aaf2db60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'adc73fb77dabdefd7f6336a9433a8a8b') in 0.004524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_9a161996-8166-4ce9-954f-63b6b3e2e03b.asset
+  artifactKey: Guid(a921f76970b90ba4b9bf82de4663bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9a161996-8166-4ce9-954f-63b6b3e2e03b.asset using Guid(a921f76970b90ba4b9bf82de4663bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c83a5837735b84a1d803a02349030eac') in 0.004392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_c05477ff-5e26-4b37-ac4d-eb61ebe81c69.asset
+  artifactKey: Guid(5c24c707e82fc9244bc9cc12f3701b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c05477ff-5e26-4b37-ac4d-eb61ebe81c69.asset using Guid(5c24c707e82fc9244bc9cc12f3701b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0996d57acbfc5bfd71cfcfbc40bde015') in 0.004459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_59431701-052a-4a31-a317-e0afed063571.asset
+  artifactKey: Guid(717aa37d79d8d2a41b2680c35aad02df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_59431701-052a-4a31-a317-e0afed063571.asset using Guid(717aa37d79d8d2a41b2680c35aad02df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e44d082f28c44e5f89f2c7cb1fe9309') in 0.004092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_6f1b28e7-a09a-4a65-8b42-d6a43b95a593.asset
+  artifactKey: Guid(6c7f35f316d69b94e882e66edb423a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6f1b28e7-a09a-4a65-8b42-d6a43b95a593.asset using Guid(6c7f35f316d69b94e882e66edb423a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77f9b32f7cec70e27744688d9d824265') in 0.004011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_cd107f1e-a469-47ef-8e9d-04225fb1fda7.asset
+  artifactKey: Guid(149411fbab51255438677c91cfa9deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cd107f1e-a469-47ef-8e9d-04225fb1fda7.asset using Guid(149411fbab51255438677c91cfa9deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27c0fcef49c6a520a1036d5d0f39f4eb') in 0.004178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_0f5c2ab0-edeb-4ba5-bc2f-61f9dd61e708.asset
+  artifactKey: Guid(2d19e0eefac14e449a844577d2ac7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0f5c2ab0-edeb-4ba5-bc2f-61f9dd61e708.asset using Guid(2d19e0eefac14e449a844577d2ac7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6a7b79ec2695b38272c761930eba254') in 0.004206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_96aa2b4a-6970-45fa-b039-21051e2255d1.asset
+  artifactKey: Guid(ee87becdf4930c548aae702fd0b6fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_96aa2b4a-6970-45fa-b039-21051e2255d1.asset using Guid(ee87becdf4930c548aae702fd0b6fea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09c2c7d4e14ccc4145673e0ad6fbb78b') in 0.004057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_b5521ef0-f20a-4464-9b50-def7c07ec06c.asset
+  artifactKey: Guid(af6c16c767c94f043a191838c356f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b5521ef0-f20a-4464-9b50-def7c07ec06c.asset using Guid(af6c16c767c94f043a191838c356f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c8af2c308dcf084fd8ae081bacdf8f3') in 0.004422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TerrainData_76289dea-3eae-4b7d-b66d-250c138011fd.asset
+  artifactKey: Guid(11b92439e4cf5cd498ed84a653474522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_76289dea-3eae-4b7d-b66d-250c138011fd.asset using Guid(11b92439e4cf5cd498ed84a653474522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd38706c05050642bc7bedf4ac36de2e') in 0.005645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_1207397c-807f-4820-ac16-10348939a579.asset
+  artifactKey: Guid(4929cbc04852a994ba1bcd80f6671ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1207397c-807f-4820-ac16-10348939a579.asset using Guid(4929cbc04852a994ba1bcd80f6671ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ee3d0230f89d22f0c430d2a5893e0db') in 0.004014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_da3575fb-9d09-48db-9070-bdb0f4c7f1db.asset
+  artifactKey: Guid(9f9a76449b88eb2459f9f05977f035f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_da3575fb-9d09-48db-9070-bdb0f4c7f1db.asset using Guid(9f9a76449b88eb2459f9f05977f035f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f5d914d14e24bf1a93b06dc1c294094') in 0.003975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_31cf4b9d-4dcb-4869-8ada-eaeff91906f6.asset
+  artifactKey: Guid(774a02833d6041149bb95b6b188e7f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_31cf4b9d-4dcb-4869-8ada-eaeff91906f6.asset using Guid(774a02833d6041149bb95b6b188e7f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9145599e89d4aa21fc0e08939f03a9bb') in 0.004262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_380960df-802f-401f-9ae6-ca40b7f977fa.asset
+  artifactKey: Guid(7cd7f1dd55570ea469a58e7c5bdee62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_380960df-802f-401f-9ae6-ca40b7f977fa.asset using Guid(7cd7f1dd55570ea469a58e7c5bdee62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e92bfaac0689beafa0cb3aa606771ba4') in 0.003952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_114932cf-50b1-4cfc-859f-6543c06603a8.asset
+  artifactKey: Guid(70f3c4bb4d0c12d4bbcda80a19c149df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_114932cf-50b1-4cfc-859f-6543c06603a8.asset using Guid(70f3c4bb4d0c12d4bbcda80a19c149df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1836d7f96322a64500202c2d139c51c4') in 0.003947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_55d51a7d-fde2-45ba-9b60-753fe2128255.asset
+  artifactKey: Guid(4ee3cd6de9f05a545a36605e89829e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_55d51a7d-fde2-45ba-9b60-753fe2128255.asset using Guid(4ee3cd6de9f05a545a36605e89829e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c3df219e65663e4119c5ab0153c3d14') in 0.004186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_ebe2df3c-bed8-453d-a98d-8c426885f667.asset
+  artifactKey: Guid(a7669af12561c3c4c8ddd717592dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ebe2df3c-bed8-453d-a98d-8c426885f667.asset using Guid(a7669af12561c3c4c8ddd717592dec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98013606a2be93bb3de13bf8ad9addfc') in 0.004272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TerrainData_58b13ded-1d03-4e8d-9137-230335ea7162.asset
+  artifactKey: Guid(a7078d454553278499c4d64d342e2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_58b13ded-1d03-4e8d-9137-230335ea7162.asset using Guid(a7078d454553278499c4d64d342e2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97722bcafb656abe9bc6f0ba1de381ce') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_1dd8d21f-0432-42ce-8a9a-a3f8cefdf4b2.asset
+  artifactKey: Guid(a389c368bd0dd5c43b122988c1568406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1dd8d21f-0432-42ce-8a9a-a3f8cefdf4b2.asset using Guid(a389c368bd0dd5c43b122988c1568406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc03cc9a100ff7334efe80e94bcc5a04') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TerrainData_7926e57c-6f1f-4514-9d32-7531a0dd1171.asset
+  artifactKey: Guid(a5b700c916704444f9f383ecc64fe43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7926e57c-6f1f-4514-9d32-7531a0dd1171.asset using Guid(a5b700c916704444f9f383ecc64fe43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a99e3e479999d0666ba85c9049d53d70') in 0.004163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_fe95d111-1edc-4812-950a-18e51ee7f7b7.asset
+  artifactKey: Guid(e4df8513eff3d754aa959fdb2b8521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_fe95d111-1edc-4812-950a-18e51ee7f7b7.asset using Guid(e4df8513eff3d754aa959fdb2b8521e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e50c1afeb0f17223fba9cd7a701df2e9') in 0.004100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_a601a8ec-90ad-4b71-b505-06ff9b7c8205.asset
+  artifactKey: Guid(9ae6a6c80d8edf14d9d193c34d092c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a601a8ec-90ad-4b71-b505-06ff9b7c8205.asset using Guid(9ae6a6c80d8edf14d9d193c34d092c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '794eaa56892ce5be3943017d50eb0e55') in 0.004269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_1eced0e7-e83a-4fbe-96ec-0930286b0ebc.asset
+  artifactKey: Guid(c6d47b347cf61b442aab56afa407a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1eced0e7-e83a-4fbe-96ec-0930286b0ebc.asset using Guid(c6d47b347cf61b442aab56afa407a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74b820ce5e48929714ac01a7811dbc91') in 0.004572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_a4c422b1-dbb0-49bd-a8bc-d56d73a25841.asset
+  artifactKey: Guid(fd8b223fc3f456c45b0a8fb75a6a7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a4c422b1-dbb0-49bd-a8bc-d56d73a25841.asset using Guid(fd8b223fc3f456c45b0a8fb75a6a7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77de436cae08877a45e6f5b1aea787e7') in 0.004371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_063131d9-1d97-4fb2-ae19-3c9636c3d06c.asset
+  artifactKey: Guid(97a2bda6d827d074691b6ed3be903173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_063131d9-1d97-4fb2-ae19-3c9636c3d06c.asset using Guid(97a2bda6d827d074691b6ed3be903173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b49be7ab51adad99147da6de2e95d560') in 0.004104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_555d3d13-caa0-4505-9161-cf3cad0d8867.asset
+  artifactKey: Guid(7ea7a9e16af7481429e41efe9535ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_555d3d13-caa0-4505-9161-cf3cad0d8867.asset using Guid(7ea7a9e16af7481429e41efe9535ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '364b955ec24de8dd5fc99890400ac7ba') in 0.004909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainData_02420423-1131-4060-8233-fd4aa45c566e.asset
+  artifactKey: Guid(859b3b87bd8782e4cbc2fb24155f626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_02420423-1131-4060-8233-fd4aa45c566e.asset using Guid(859b3b87bd8782e4cbc2fb24155f626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ecf9eeae7fa85eef7368888cba9fd86') in 0.004591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_51799e3b-23cd-4e81-89f6-82f609892040.asset
+  artifactKey: Guid(3d71be7bf0ccfea45940115cf1bd9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_51799e3b-23cd-4e81-89f6-82f609892040.asset using Guid(3d71be7bf0ccfea45940115cf1bd9389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dbc2a86b3b8c42558eb9f3b817a58b43') in 0.004090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TerrainData_59f8714c-a747-45c1-856c-2720b362883c.asset
+  artifactKey: Guid(83b3362d701997d49a32dfde638d7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_59f8714c-a747-45c1-856c-2720b362883c.asset using Guid(83b3362d701997d49a32dfde638d7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15d83d23cab302ce3e229961b01ded91') in 0.004602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_e706c7a4-3b2a-4d54-9ad1-7a5f801354a0.asset
+  artifactKey: Guid(9449b26cccb91db45aa282e130ffaa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_e706c7a4-3b2a-4d54-9ad1-7a5f801354a0.asset using Guid(9449b26cccb91db45aa282e130ffaa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62c88a690d0e71e5ae892119af2d869e') in 0.004294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_b4ae0c87-23d4-4e62-bc26-e197b7965f1f.asset
+  artifactKey: Guid(1cce4713ffd818142ae0fa4b35fc849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b4ae0c87-23d4-4e62-bc26-e197b7965f1f.asset using Guid(1cce4713ffd818142ae0fa4b35fc849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16632a33e09638c4ace65696e6200ac1') in 0.004516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_52dce976-3f9b-44b3-9b42-92c383878e4a.asset
+  artifactKey: Guid(c2198181e93c3a8469727d51ba8f440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_52dce976-3f9b-44b3-9b42-92c383878e4a.asset using Guid(c2198181e93c3a8469727d51ba8f440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3031a2c77f7022db56767636b7f71b25') in 0.004274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_a4c82760-8872-46ae-9648-bc8f4bad6b3a.asset
+  artifactKey: Guid(79e97c12e07b1924f8d379cb8ea7fd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a4c82760-8872-46ae-9648-bc8f4bad6b3a.asset using Guid(79e97c12e07b1924f8d379cb8ea7fd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4429577bddf82b5d02cd138af073bf8f') in 0.004031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_d854ffc5-683f-4fb7-b328-6f07216ed24f.asset
+  artifactKey: Guid(b191906c1d11740419266e6a7611763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d854ffc5-683f-4fb7-b328-6f07216ed24f.asset using Guid(b191906c1d11740419266e6a7611763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '539c67c5574c6a81ab6dd66bd9eab42f') in 0.004063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_93ff04fb-2f7e-493c-9aee-f45fafe78c91.asset
+  artifactKey: Guid(06446dd17586eb747a27dde98e2c2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_93ff04fb-2f7e-493c-9aee-f45fafe78c91.asset using Guid(06446dd17586eb747a27dde98e2c2d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0763910f5b45098307b3692a4abb5569') in 0.003904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_0d2714d1-a1be-46cd-ad65-cb8ce4f95b08.asset
+  artifactKey: Guid(d3dad3ae1d14a8b4eb09c72d79afd438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0d2714d1-a1be-46cd-ad65-cb8ce4f95b08.asset using Guid(d3dad3ae1d14a8b4eb09c72d79afd438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a33fab838b7d3f1c55297fe5c634be54') in 0.005548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_74491c57-c7d5-4d9d-a133-0b2a2b27f151.asset
+  artifactKey: Guid(8a89cbf418c30e545ab2a3420852a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_74491c57-c7d5-4d9d-a133-0b2a2b27f151.asset using Guid(8a89cbf418c30e545ab2a3420852a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '419fc5226807483d6b40423ef9f7995c') in 0.004167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_2f824e5b-9fd0-49c7-8154-7c32990f2877.asset
+  artifactKey: Guid(a1d4f7b08b01e404d9f8fcdcb67e1c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2f824e5b-9fd0-49c7-8154-7c32990f2877.asset using Guid(a1d4f7b08b01e404d9f8fcdcb67e1c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ecd6cf84ed988e92a77fb1bd72a9677') in 0.004156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_73cf17cc-3b1f-4129-b1c8-0df66ee80ac4.asset
+  artifactKey: Guid(a3c1bf8af264cf44781327e4394965f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_73cf17cc-3b1f-4129-b1c8-0df66ee80ac4.asset using Guid(a3c1bf8af264cf44781327e4394965f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f26d9b0be34c7934749a4a7a7549329d') in 0.005572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_d0512b74-b814-4881-8abf-385370788868.asset
+  artifactKey: Guid(4b5b895a37f6dc64cbb3a5a68b19d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d0512b74-b814-4881-8abf-385370788868.asset using Guid(4b5b895a37f6dc64cbb3a5a68b19d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aa5bdad82279c6bf24a50f3aabf4ac78') in 0.004069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_a8f9e0f8-7ee1-4e2f-8dd7-b4baff8da6e7.asset
+  artifactKey: Guid(28a1cca215418b74ab2317c019f038ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a8f9e0f8-7ee1-4e2f-8dd7-b4baff8da6e7.asset using Guid(28a1cca215418b74ab2317c019f038ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a84b114fffcbe196bb3b9a3b6c7d168') in 0.004041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_ef303b8b-b191-48e7-82fb-8efb61a2950b.asset
+  artifactKey: Guid(fee8753dbcece6a4188fca5bd11803ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ef303b8b-b191-48e7-82fb-8efb61a2950b.asset using Guid(fee8753dbcece6a4188fca5bd11803ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae19ac0eef9eeb93a180c482e84b40fd') in 0.004068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_80db6b26-8c85-4368-8904-2c56da579a94.asset
+  artifactKey: Guid(197ef45a41caa404ca571eabe3ebcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_80db6b26-8c85-4368-8904-2c56da579a94.asset using Guid(197ef45a41caa404ca571eabe3ebcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91e84e16ebe400490033557aef6e751d') in 0.004156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_53e95d4d-941d-41ec-9c3c-87fb777b4dd1.asset
+  artifactKey: Guid(4190a29b955551546a7b7fd65ae6a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_53e95d4d-941d-41ec-9c3c-87fb777b4dd1.asset using Guid(4190a29b955551546a7b7fd65ae6a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '673e374fd704003d1577523b4d0140a3') in 0.004052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_44b8865c-327d-445f-bb79-9d1c08814e82.asset
+  artifactKey: Guid(061f6b910a618cf4c990c878fbbc6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_44b8865c-327d-445f-bb79-9d1c08814e82.asset using Guid(061f6b910a618cf4c990c878fbbc6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79d63f82f15402a3563ec3832c7c41ff') in 0.004250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_c0617621-5dac-4d83-ad80-d3bfab209af5.asset
+  artifactKey: Guid(d62ef5cbf6ea149469a05f529fab2277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c0617621-5dac-4d83-ad80-d3bfab209af5.asset using Guid(d62ef5cbf6ea149469a05f529fab2277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fcf7392b6db2e5300618c714fe3df08') in 0.004521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_32225543-5ad1-4d68-adf6-61c7b259afea.asset
+  artifactKey: Guid(e9474d99506393b4b91e3ec36a067f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_32225543-5ad1-4d68-adf6-61c7b259afea.asset using Guid(e9474d99506393b4b91e3ec36a067f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c62fb62c5d0d99f09a160dec84253208') in 0.004191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_0d49bd74-ea60-4c69-89a3-0b7fe3032348.asset
+  artifactKey: Guid(35200fbe8c351de46b761745255cbc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0d49bd74-ea60-4c69-89a3-0b7fe3032348.asset using Guid(35200fbe8c351de46b761745255cbc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20ecb5c7e2cf404b53a9137c1b4511d7') in 0.004020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_5f6a5373-c9b0-423a-a95f-9b9daef334a1.asset
+  artifactKey: Guid(3a87bbc4ddd093243841d10f3e73e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_5f6a5373-c9b0-423a-a95f-9b9daef334a1.asset using Guid(3a87bbc4ddd093243841d10f3e73e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28b765871d25ec75089a24e7336974c7') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_0b8216ce-59f4-4a9e-af17-d798161da897.asset
+  artifactKey: Guid(ac5680bee414d304a832d5f0a57e4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0b8216ce-59f4-4a9e-af17-d798161da897.asset using Guid(ac5680bee414d304a832d5f0a57e4895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b528108e668daf86525de652cc350f8') in 0.003960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_8b391fb8-a86b-4e17-a833-ed839caba380.asset
+  artifactKey: Guid(b672f99ad49e2044b8bee4d9d14544ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8b391fb8-a86b-4e17-a833-ed839caba380.asset using Guid(b672f99ad49e2044b8bee4d9d14544ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8355d411ec41c090140a0fc596e40bb6') in 0.003893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_3f18cf44-07ce-4e3e-965a-86ed7ce3d29a.asset
+  artifactKey: Guid(c5c424e7f203b4c42aa370e358dbe54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3f18cf44-07ce-4e3e-965a-86ed7ce3d29a.asset using Guid(c5c424e7f203b4c42aa370e358dbe54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6fc70265ff0ca5410821b0f922195cf') in 0.004824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_7a8b923b-e1d8-474d-b251-8b89431f4b17.asset
+  artifactKey: Guid(dec7a20cd96edda4d84b6a625a7d5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7a8b923b-e1d8-474d-b251-8b89431f4b17.asset using Guid(dec7a20cd96edda4d84b6a625a7d5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '897de53e803c9252c09c8f3782711288') in 0.005474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_d922c066-bfda-438e-9d64-edbcbb228fbe.asset
+  artifactKey: Guid(f4f1e1d74e5f1f4488172bb889aaba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d922c066-bfda-438e-9d64-edbcbb228fbe.asset using Guid(f4f1e1d74e5f1f4488172bb889aaba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e08e83938135a5e1d02fe01f3e9c6abe') in 0.004206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_bf84c4a8-64f5-4303-bfb8-9d515ae2b76d.asset
+  artifactKey: Guid(85b9c611648ec1343ac0392c3bde6f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bf84c4a8-64f5-4303-bfb8-9d515ae2b76d.asset using Guid(85b9c611648ec1343ac0392c3bde6f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e1faa5e5f4c510c806248479bf83b40') in 0.004689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_a8d743fd-b196-4234-8746-2678d2b23676.asset
+  artifactKey: Guid(345447d331f66f74e888bfb333130eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a8d743fd-b196-4234-8746-2678d2b23676.asset using Guid(345447d331f66f74e888bfb333130eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c744866ac5b569ec58ebe6db4a422939') in 0.003995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_d2c592bb-2c8e-47ff-bf3d-ebbe9a0df9b7.asset
+  artifactKey: Guid(59942c587138fe049813acbfbe3f8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d2c592bb-2c8e-47ff-bf3d-ebbe9a0df9b7.asset using Guid(59942c587138fe049813acbfbe3f8bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68c8869f2bc32eaf4a4280a1899c52b6') in 0.003819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_1ecd0423-b18c-49e9-a57a-d28899addae8.asset
+  artifactKey: Guid(1a8001d47875d4a40b58776d84ebd86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_1ecd0423-b18c-49e9-a57a-d28899addae8.asset using Guid(1a8001d47875d4a40b58776d84ebd86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d9a3a16839df16f21511df4360551b6') in 0.004037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_89b6d20e-97b2-443d-9e8b-e2d3a3a6743f.asset
+  artifactKey: Guid(9d10a0c2f5fcf2142b1a9da07409ea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_89b6d20e-97b2-443d-9e8b-e2d3a3a6743f.asset using Guid(9d10a0c2f5fcf2142b1a9da07409ea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebdc35182e600a14a746111b674cc65e') in 0.004447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_012ec61c-825a-4f28-91d7-ff97abd1c7b9.asset
+  artifactKey: Guid(3c3e5827658d9ae4b8682bf9b90aca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_012ec61c-825a-4f28-91d7-ff97abd1c7b9.asset using Guid(3c3e5827658d9ae4b8682bf9b90aca82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e72347001cf7e6de0d057b1eddbe7aa4') in 0.005392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TerrainData_0e985b0a-9e3a-4d2f-9c8c-9bc116fc195e.asset
+  artifactKey: Guid(9d1898888aed2784084f95a07914e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0e985b0a-9e3a-4d2f-9c8c-9bc116fc195e.asset using Guid(9d1898888aed2784084f95a07914e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fda5bb93ef030faeeda5372ae06a376c') in 0.004630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_9a427620-2909-483b-95ae-a25c4c0ef4bf.asset
+  artifactKey: Guid(6000bb80496838246b5d8f19f28c355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9a427620-2909-483b-95ae-a25c4c0ef4bf.asset using Guid(6000bb80496838246b5d8f19f28c355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3bf630942fcd05fa4c981278e7a7e745') in 0.004313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_107567a6-8294-4982-8b98-f80228d45ed9.asset
+  artifactKey: Guid(df01f797adb002f408993365c46781d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_107567a6-8294-4982-8b98-f80228d45ed9.asset using Guid(df01f797adb002f408993365c46781d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '895a7072b2a7178dca846c1379a28ca0') in 0.004111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_ba24063a-a230-43c8-bb8e-75fb8dd8b276.asset
+  artifactKey: Guid(30ee1e46d1b1cfa4a93157305f09584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ba24063a-a230-43c8-bb8e-75fb8dd8b276.asset using Guid(30ee1e46d1b1cfa4a93157305f09584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '607c981f5600cf50d2c544f770c8eaa0') in 0.004053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_ba2cdf1e-946f-41f4-a35f-6a9fe693487c.asset
+  artifactKey: Guid(6a8e62482e8aa7442a1c533887a2a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ba2cdf1e-946f-41f4-a35f-6a9fe693487c.asset using Guid(6a8e62482e8aa7442a1c533887a2a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1c3a761b21384653f856c196238e71f') in 0.004179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_6ec50ce3-d3fe-4365-9372-c1be6ee92cd0.asset
+  artifactKey: Guid(bfd2b665f98fd2645ac68fe06c6e48de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6ec50ce3-d3fe-4365-9372-c1be6ee92cd0.asset using Guid(bfd2b665f98fd2645ac68fe06c6e48de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d4afbb185fed4451b978547ccdbd928') in 0.003951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_cd129421-ffc5-4a7d-929a-2f099ff7c8a5.asset
+  artifactKey: Guid(68f99dc82d4ced542869912dfb1e0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_cd129421-ffc5-4a7d-929a-2f099ff7c8a5.asset using Guid(68f99dc82d4ced542869912dfb1e0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c27f54c89436b971b409295d74b38bf6') in 0.004595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainData_22b343a4-2bd6-435c-aa67-43afdac9dcdd.asset
+  artifactKey: Guid(cf90c679bb3cf20468cc59e570373295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_22b343a4-2bd6-435c-aa67-43afdac9dcdd.asset using Guid(cf90c679bb3cf20468cc59e570373295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ca2f53cd2638a6086ca16304cd5951b') in 0.004428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_ea647a0c-3b6e-4155-bf9d-e85fec8d5d0e.asset
+  artifactKey: Guid(907ba0b8c275b1e43bafec3850f5efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ea647a0c-3b6e-4155-bf9d-e85fec8d5d0e.asset using Guid(907ba0b8c275b1e43bafec3850f5efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '977aaa63b19eb7d46ba94f325ce77464') in 0.004206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_baca1ebb-0ea8-40f6-88c6-d2f61ee6c2be.asset
+  artifactKey: Guid(9dda11cac6957564aa2404d147efeeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_baca1ebb-0ea8-40f6-88c6-d2f61ee6c2be.asset using Guid(9dda11cac6957564aa2404d147efeeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b5bc70af1328b74580985a9265993cb') in 0.004370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_eeb55450-5dfd-4929-b938-eddd1e72d5a0.asset
+  artifactKey: Guid(5bebc729e5867f94bb186cf176e8d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_eeb55450-5dfd-4929-b938-eddd1e72d5a0.asset using Guid(5bebc729e5867f94bb186cf176e8d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5032f8b3766de9934effd250f720d0c7') in 0.003853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_ced6d4c7-e027-4ccc-b250-3e000fb4fcff.asset
+  artifactKey: Guid(48ab063e8556afb4c87a65c82d24e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ced6d4c7-e027-4ccc-b250-3e000fb4fcff.asset using Guid(48ab063e8556afb4c87a65c82d24e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a9d08e96993ee01ba9a4d82ccbc2b1c') in 0.004354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_ea25aa55-f745-4a07-9b09-7a5f26051a12.asset
+  artifactKey: Guid(3b52d858508c7a14a979c19567524fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ea25aa55-f745-4a07-9b09-7a5f26051a12.asset using Guid(3b52d858508c7a14a979c19567524fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb4310db808d638c2e434719bc3b1aca') in 0.004161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_62c0dd4c-cffd-46df-9268-2e5e253fdcb5.asset
+  artifactKey: Guid(332cc939d4c18dd488b13b7964458542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_62c0dd4c-cffd-46df-9268-2e5e253fdcb5.asset using Guid(332cc939d4c18dd488b13b7964458542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9364d662621716594cbe886f382e5cde') in 0.004361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_dcb38362-d95e-4e87-87ce-5754d2d36744.asset
+  artifactKey: Guid(da01355faf75159418b10e870afb25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_dcb38362-d95e-4e87-87ce-5754d2d36744.asset using Guid(da01355faf75159418b10e870afb25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '086f3b279f564438fe38c956817ffba2') in 0.004338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_5e0d91e1-998d-4c8d-a6c2-1d6174b2b584.asset
+  artifactKey: Guid(6c1233b0283765b4fa77fbe8192a8362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_5e0d91e1-998d-4c8d-a6c2-1d6174b2b584.asset using Guid(6c1233b0283765b4fa77fbe8192a8362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6aa5cf9d77a37ecd40153b056b96dcc') in 0.004125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_f8b3cc49-432c-4fd6-b88a-0b2c16d4ce9a.asset
+  artifactKey: Guid(e508cd1af10413546be752f785c69d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f8b3cc49-432c-4fd6-b88a-0b2c16d4ce9a.asset using Guid(e508cd1af10413546be752f785c69d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17db5cea604b3b09503c40b5dab5bf8e') in 0.003887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_b295e891-7f6c-4094-ba0f-2c55fa56dee0.asset
+  artifactKey: Guid(4bc75b083f0a45443a5bd0901f904c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b295e891-7f6c-4094-ba0f-2c55fa56dee0.asset using Guid(4bc75b083f0a45443a5bd0901f904c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2a32a04e8ef9ad178c90ab2e5a5dbcf') in 0.003989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_980646b2-acd0-486e-8409-a7cbfb48d659.asset
+  artifactKey: Guid(cdfac10419ad3104298a2af11a3bb734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_980646b2-acd0-486e-8409-a7cbfb48d659.asset using Guid(cdfac10419ad3104298a2af11a3bb734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7340bbc8c03eb86c707ee61ec70e48a') in 0.003914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_ef4001a0-b085-45ee-b239-7ab812b90995.asset
+  artifactKey: Guid(bfb5642a9d313bd47b299c03fe6db902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ef4001a0-b085-45ee-b239-7ab812b90995.asset using Guid(bfb5642a9d313bd47b299c03fe6db902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4de8f2e2755e6f6789b2ac23bce9db03') in 0.004699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainData_3be6700d-a144-405a-b555-821b87fd0d1c.asset
+  artifactKey: Guid(f2fb0ec202384a64eae6a1cc27edb6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3be6700d-a144-405a-b555-821b87fd0d1c.asset using Guid(f2fb0ec202384a64eae6a1cc27edb6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50c7304975f3dc7503f5d8a690d59c91') in 0.004104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_8bc19649-22d9-4d04-91e7-9bbd513b14a0.asset
+  artifactKey: Guid(90711afb7441cd141880fe262ca57375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8bc19649-22d9-4d04-91e7-9bbd513b14a0.asset using Guid(90711afb7441cd141880fe262ca57375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '695f23c755b0b9ce2a74a852855f5f0d') in 0.004529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_76c2b9ac-7f57-4e20-a117-cd70e1c95d33.asset
+  artifactKey: Guid(eb9593013a1453c48b5c67ee928f7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_76c2b9ac-7f57-4e20-a117-cd70e1c95d33.asset using Guid(eb9593013a1453c48b5c67ee928f7f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82f8ba8e41649c63f4282c27070ba0ab') in 0.004010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainData_c23f129a-69dc-4bd3-8df7-aa85e92a8719.asset
+  artifactKey: Guid(2e50a3bcbde38434896c4ca697680ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c23f129a-69dc-4bd3-8df7-aa85e92a8719.asset using Guid(2e50a3bcbde38434896c4ca697680ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a481a1141eaa06e3bf955c32bf1d2b9f') in 0.003932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_75113322-b858-4673-b79a-dc3a1050cc97.asset
+  artifactKey: Guid(c1f0e75ea0c5930439ac5a07fbaa2d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_75113322-b858-4673-b79a-dc3a1050cc97.asset using Guid(c1f0e75ea0c5930439ac5a07fbaa2d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae696f19fc0b4c4f09525bfc02171fad') in 0.004487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_be4b5ac6-cdf5-4ceb-b83d-1e47324ff919.asset
+  artifactKey: Guid(7138f4a3d3ea07442b728eb1a2d005e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_be4b5ac6-cdf5-4ceb-b83d-1e47324ff919.asset using Guid(7138f4a3d3ea07442b728eb1a2d005e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c62780fb25ca3820083981be8f390a3b') in 0.004210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
